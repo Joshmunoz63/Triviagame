@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz</title>
+    <!-- link to bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- link to reset css -->
+    <link rel="stylesheet" href="assets/reset.css">    
+    <!-- link to css -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    
+    <div class="row" id="frame001">
+        <div class="col-lg-12" style="align-content: center">
+        <div id="text001">
+            <h2>Quiz</h2>
+            Question: <text id="number001">0</text><br />
+            Score: <text id="score001">0</text>
+            <h3 id="timer">Time left:</h3>
+        <hr />
+                <div id="message001">Click Begin to start</div><br />
+            </div>
+        <div id="text002">
+            <div id="question001"></div>
+            <div id="option001"></div>
+            <div id="option002"></div>
+            <div id="option003"></div>
+            <div id="option004"></div>
+            <div id="answer001"></div>
+            <div id="text001">
+                <div id="disappear001"><button class="buttons001" onclick="begin001()">Begin</button></div>
+            </div>
+            <div id="next001"></div>
+        </div>
+        </div>
+        </div>
+        <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- link to game -->
+    <script type="text/javascript" src="assets/game.js"></script>
+        <!-- link to timer -->
+    <script type="text/javascript" src="assets/timer.js"></script>
+    
+</body>
+</html>
